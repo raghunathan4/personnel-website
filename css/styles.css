@@ -1,0 +1,169 @@
+
+
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 40px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+
+/* navbar section */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 10px;
+}
+
+/* *title image */
+.phone {
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  right: 20%;
+}
+
+/* *download button title section */
+.download-button {
+  margin: 5% 0 0 5%;
+}
+
+/* features */
+
+
+/* fontawesomeicon */
+.fas {
+  color: #ef8872;
+  margin-bottom: 1rem;
+}
+
+/* fontawesomeicon hover */
+.fas:hover {
+  color: #ff4c68;
+}
+
+#features {
+padding: 7% 15%;
+background-color: white;
+  text-align: center;
+position: relative;
+}
+
+.features-h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.features-p {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+/* testimonial section */
+
+#testimonials {
+  text-align: center;
+  background-color:#ef8872;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 11% 15% 10% ;
+}
+
+.testimonial-image {
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+/* press section */
+
+#press {
+  background-color:#ef8872;
+text-align: center;
+padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px;
+}
+
+/* pricing section */
+
+#pricing {
+  margin: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+
+
+/* call to action */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 7% 15%;
+}
+
+.h3-cta{
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+
+/* footer section */
+
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
+
+/* media query */
+
+@media  (max-width: 993px){
+
+#title {
+  text-align: center;
+}
+.phone{
+  transform: rotate(0);
+  position: static;
+}
+}
